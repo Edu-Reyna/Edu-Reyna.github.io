@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acta de Constitución - Proyecto Balatro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="acta.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 to-slate-800 min-h-screen">
+    <script type="module" src="js/main.js"></script>
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-gradient-to-br from-gray-800 to-gray-900 shadow-xl rounded-xl p-8 border border-red-900/20">
+            <header class="text-center mb-12 animate__animated animate__fadeIn">
+                <div class="inline-block p-2 px-4 bg-red-900/20 rounded-full text-red-400 text-sm font-semibold mb-4 pixel-font">
+                    Documento Oficial
+                </div>
+                <h1 class="text-4xl font-bold text-amber-300 mb-6 pixel-font">Acta de Constitución del Proyecto</h1>
+                <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0 md:space-x-4">
+                    <div class="card-info w-full md:w-1/2">
+                        <p class="font-medium text-gray-400">Título del Proyecto</p>
+                        <p class="text-lg text-red-400">Promoción de nuevas cartas en el videojuego Balatro</p>
+                    </div>
+                    <div class="card-info w-full md:w-1/2">
+                        <p class="font-medium text-gray-400">Fecha de Inicio</p>
+                        <p class="text-lg text-red-400">10/10/2024</p>
+                    </div>
+                </div>
+            </header>
+
+            <div id="content" class="space-y-8">
+                <!-- Content will be injected by JavaScript -->
+            </div>
+
+            <footer class="mt-12 pt-8 border-t border-red-900/20">
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="card-info">
+                        <p class="font-semibold text-gray-400 mb-2">Patrocinador del Proyecto</p>
+                        <p class="text-lg text-red-400">LocalThunk</p>
+                    </div>
+                    <div class="card-info">
+                        <p class="font-semibold text-gray-400 mb-2">Aprobado por</p>
+                        <p class="text-lg text-red-400">Eduardo Reyna</p>
+                        <p class="text-sm text-gray-400">Fecha: 12/10/2024</p>
+                        <p class="mt-2 signature">Eduardo Reyna</p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script type="module" src="js/acta.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Proyecto Balatro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="acta.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+</head>
+<body class="overflow-hidden">
+    <script type="module" src="js/main.js"></script>
+    <div class="background-container">
+        <div class="background-overlay"></div>
+    </div>    
+
+    <main class="navigation-container">
+        <div class="title-container">
+        </div>
+        <nav id="circular-nav" class="w-full h-full"></nav>
+    </main>
+
+    <script type="module">
+        import { navigationLinks } from './js/navigationData.js';
+        import { createNavigationButton } from './js/circularNavigation.js';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const nav = document.getElementById('circular-nav');
+            navigationLinks.forEach((link, index) => {
+                nav.appendChild(
+                    createNavigationButton(link, index, navigationLinks.length)
+                );
+            });
+        });
+    </script>
+</body>
+</html>

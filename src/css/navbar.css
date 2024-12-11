@@ -1,0 +1,15 @@
+/* Add extra spacing for navbar */
+body {
+    padding-top: 4rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar-links {
+        display: none;
+    }
+    
+    .navbar-mobile-menu {
+        display: block;
+    }
+}

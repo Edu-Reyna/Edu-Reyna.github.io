@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción - Proyecto Balatro</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="acta.css">
+</head>
+<body class="bg-gradient-to-br from-slate-900 to-slate-800 min-h-screen">
+    <script type="module" src="js/main.js"></script>
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <div class="bg-gradient-to-br from-gray-800 to-gray-900 shadow-xl rounded-xl p-8 border border-red-900/20">
+            <header class="text-center mb-12 animate__animated animate__fadeIn">
+                <div class="inline-block p-2 px-4 bg-red-900/20 rounded-full text-red-400 text-sm font-semibold mb-4 pixel-font">
+                    Documento Principal
+                </div>
+                <h1 class="text-4xl font-bold text-amber-300 mb-6 pixel-font">Introducción</h1>
+                <div class="w-24 h-1 bg-red-500/20 mx-auto rounded-full"></div>
+            </header>
+
+            <div id="content" class="space-y-8">
+
+            </div>
+        </div>
+    </div>
+    <script type="module">
+        import { introData } from './js/introData.js';
+        import { renderIntroSection } from './js/introRenderer.js';
+
+        document.addEventListener('DOMContentLoaded', () => {
+            const contentContainer = document.getElementById('content');
+            
+            introData.sections.forEach(section => {
+                contentContainer.appendChild(renderIntroSection(section));
+            });
+        });
+    </script>
+</body>
+</html>
