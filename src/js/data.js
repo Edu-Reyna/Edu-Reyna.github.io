@@ -48,8 +48,7 @@ export const sections = [
                 items: [
                     "Project Manager",
                     "Diseñador gráfico",
-                    "Desarrollador web",
-                    "Community Manager"
+                    "Desarrollador web"
                 ]
             },
             {
