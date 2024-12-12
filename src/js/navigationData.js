@@ -5,7 +5,7 @@ export const navigationLinks = [
         color: "from-red-500 to-red-700"
     },
     {
-        title: "Andrey Mc Kenzye",
+        title: "Andrey Mc Kenzie",
         url: "https://www.canva.com/design/DAGZBUekXKM/K-dKkUrRFjZr-HHtQqnMCw/edit?utm_content=DAGZBUekXKM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         color: "from-amber-500 to-amber-700"
     },
@@ -20,8 +20,8 @@ export const navigationLinks = [
         color: "from-green-500 to-green-700"
     },
     {
-        title: "Andy Xavier",
-        url: "/closure.html",
+        title: "Andy Abrego",
+        url: "https://www.canva.com/design/DAGZCnXomIs/0SEql_o81JIsjdlZY-0-aw/edit?utm_content=DAGZCnXomIs&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         color: "from-purple-500 to-purple-700"
     }
 ];
