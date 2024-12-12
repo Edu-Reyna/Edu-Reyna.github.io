@@ -36,7 +36,6 @@ export const sections = [
         title: "4. Criterios de Éxito",
         content: [
             "Lograr al menos 20,000 interacciones totales en redes sociales durante la campaña.",
-            "Incrementar el tráfico en la página web de documentación del proyecto en un 15% durante el periodo de campaña.",
             "Recibir retroalimentación positiva de al menos el 75% de la comunidad participante en encuestas posteriores."
         ]
     },
