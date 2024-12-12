@@ -20,8 +20,7 @@ export const sections = [
                 items: [
                     "Diseño y promoción de nuevas cartas basadas en personajes populares.",
                     "Desarrollo de contenido gráfico y audiovisual para redes sociales.",
-                    "Creación de una página web donde se documentará el proyecto.",
-                    "Organización de eventos en vivo o transmisiones para interactuar con la comunidad."
+                    "Creación de una página web donde se documentará el proyecto."
                 ]
             },
             {
