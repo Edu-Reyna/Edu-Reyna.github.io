@@ -1,7 +1,7 @@
 export const navigationLinks = [
     {
         title: "Eduardo Reyna",
-        url: "/index.html",
+        url: "https://www.canva.com/design/DAGZCecQ_kg/o1Ww0CSmol01I64zcEuUCg/edit?utm_content=DAGZCecQ_kg&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         color: "from-red-500 to-red-700"
     },
     {
