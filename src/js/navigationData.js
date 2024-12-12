@@ -11,7 +11,7 @@ export const navigationLinks = [
     },
     {
         title: "Andres Molero",
-        url: "/execution.html",
+        url: "https://www.canva.com/design/DAGZFs5-FT0/ZvBNGBilBdYo9LhVTR77jw/view?utm_content=DAGZFs5-FT0&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=h4b7db899f0",
         color: "from-blue-500 to-blue-700"
     },
     {
