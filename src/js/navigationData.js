@@ -5,7 +5,7 @@ export const navigationLinks = [
         color: "from-red-500 to-red-700"
     },
     {
-        title: "Andrey Mackenzye",
+        title: "Andrey Mc Kenzye",
         url: "https://www.canva.com/design/DAGZBUekXKM/K-dKkUrRFjZr-HHtQqnMCw/edit?utm_content=DAGZBUekXKM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         color: "from-amber-500 to-amber-700"
     },
