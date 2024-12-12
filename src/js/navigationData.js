@@ -16,7 +16,7 @@ export const navigationLinks = [
     },
     {
         title: "Nassim Ortega",
-        url: "/monitoring.html",
+        url: "https://www.canva.com/design/DAGZB_C2w5s/2N65YrEU4giUGQcAPxD6iA/edit?utm_content=DAGZB_C2w5s&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
         color: "from-green-500 to-green-700"
     },
     {
